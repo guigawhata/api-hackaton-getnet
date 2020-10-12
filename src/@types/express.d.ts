@@ -3,5 +3,8 @@ declare namespace Express {
     connectedTotems: {
       [totem_id: string]: string;
     };
+    user: {
+      id: string;
+    };
   }
 }
