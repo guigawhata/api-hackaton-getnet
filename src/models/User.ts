@@ -11,6 +11,7 @@ import {
 
 import Role from './Role';
 import Company from './Company';
+import Chac from './Chac';
 
 @Entity('users')
 class User {
@@ -33,7 +34,10 @@ class User {
   avatar: string;
 
   @OneToMany(() => Company, () => User)
-  carts: Company[];
+  companies: Company[];
+
+  @OneToMany(() => Chac, () => User)
+  chacs: Chac[];
 
   @ManyToMany(() => Role)
   @JoinTable({
