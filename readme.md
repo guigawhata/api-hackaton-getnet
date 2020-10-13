@@ -2,7 +2,7 @@
     <img src="https://storage.googleapis.com/devfloyd/logo.devfloyd.light.png">
 </div>
 
-# Feedceres Reports 📊
+# Getnet Sample API 📊
 
 Aplicação para controle de micro-empresas.
 
