@@ -41,6 +41,6 @@
     "socket.io": "^2.3.0",
     "ts-node": "^9.0.0",
     "typeorm": "^0.2.28",
-    "ts-node-dev": "^1.0.0-pre.63",
+    "ts-node-dev": "^1.0.0-pre.63"
   }
 }
