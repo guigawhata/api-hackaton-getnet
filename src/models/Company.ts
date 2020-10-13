@@ -35,7 +35,7 @@ class Company {
 
   @ManyToOne(() => User, () => Company)
   @JoinColumn({ name: 'user_id' })
-  client: User;
+  user: User;
 
   @CreateDateColumn()
   created_at: Date;
